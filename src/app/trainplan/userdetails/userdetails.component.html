@@ -1,0 +1,12 @@
+<p class="titles">Hey , And Welcome to Gymei System</p>
+<p>What is Your Name?</p>
+<br/>
+<label>
+  First Name:
+  <input type="text" #firstname>
+</label>
+<label>
+  Last Name:
+  <input type="text" #lastname>
+</label>
+<input type="button" class="cta" value="Lets Get Started" routerLink="/trainplan/bmi" (click)="FillDetails(firstname, lastname)">

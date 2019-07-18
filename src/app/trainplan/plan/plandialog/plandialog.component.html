@@ -1,0 +1,11 @@
+<div class="youtb">
+  <button class="close" (click)="OnCloseClick()">Go Back To Plan</button>
+  <youtube-player
+    [height]="height"
+    [width]="width"
+    [videoId]="id"
+    (ready)="savePlayer($event)"
+    (change)="onStateChange($event)"
+    style="margin: 0 auto;">
+  </youtube-player>
+</div>

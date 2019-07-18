@@ -1,0 +1,45 @@
+.flex-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  width: 655px;
+  height: 90px;
+  top: 35px;
+  background: #39CCCC;
+  border-radius: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+  box-shadow: 13px 15px 22px #000A16;
+  font-size: 30px;
+}
+
+.flex-container:hover {
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  font-weight: 900;
+  background-image: url('https://i.pinimg.com/originals/96/6a/7b/966a7b0fa51a0e145aa6b2fe8cd56923.jpg');
+  background-size: 150px;
+  font-size: 30px;
+  color: #39CCCC;
+}
+
+.flex-container:hover:before, .flex-container:hover:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 655px;
+  height: 90px;
+  background: #39CCCC;
+  border-radius: 75px;
+  z-index: -1;
+}
+
+.flex-container:hover:after {
+  background: #39CCCC;
+}
+
+

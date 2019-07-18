@@ -1,0 +1,31 @@
+body,html{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Source Sans Pro" sans-serif;
+}
+.form-border {
+  border: 1px solid #ccc!important;
+  border-radius: 22px;
+  padding: 2rem;
+  width: 250px;
+  margin: 0 auto;
+}
+.details-button {
+  width: 226px;
+  height: 47px;
+  background: #000A16;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 13px;
+  padding: 0em;
+  cursor: pointer;
+  font-family: 'Montserrat';
+
+  &:hover {
+    font-weight: bold;
+    background: #39CCCC;
+    color: #000A16;
+  }
+}

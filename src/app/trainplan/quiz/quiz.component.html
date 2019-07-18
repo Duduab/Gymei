@@ -1,0 +1,42 @@
+<p class="titles">Third Step - Quiz</p>
+<p>Fill Details About your self</p>
+<div>
+  <br/>
+  <label>
+    What is Your age? <br/> <input [(ngModel)]="selectedValue1" type="text" #age>
+  </label>
+  <br/>
+  <label>
+    How much time you Dedicate To practice in your week?<br/><br/>
+    <select [(ngModel)]="selectedValue2" #practicetime>
+      <option *ngFor="let f of frequency" [ngValue]="f">{{f.fr}}</option>
+    </select>
+  </label>
+  <br/>
+  <label>
+    you smoking? <br/><br/>
+    <select [(ngModel)]="selectedValue3" #smoke>
+      <option *ngFor="let s of health" [ngValue]="s">{{s.ans}}</option>
+    </select>
+  </label>
+  <br/>
+  <label>
+    Have you ever been in hospital in the last 6 Month's? <br/><br/>
+    <select [(ngModel)]="selectedValue4" #hospital>
+      <option *ngFor="let s of health" [ngValue]="s">{{s.ans}}</option>
+    </select>
+  </label>
+  <br/>
+  <label>
+    How much available time(in days) you have in your week? <br/><br/>
+    <select [(ngModel)]="selectedValue5" #available>
+      <option *ngFor="let f of frequency" [ngValue]="f">{{f.fr}}</option>
+    </select>
+  </label>
+  <br/>
+  <br/>
+  <div *ngIf="boolini" class="loader"></div>
+  <div *ngIf="boolini" class="message-loader">Please Wait , Your Gymei Fitting You Practice Plan!</div>
+  <input type="button" value="CREATE PLAN" routerLink="/trainplan/plan" (click)="changeDisplay()" class="cta">
+</div>
+

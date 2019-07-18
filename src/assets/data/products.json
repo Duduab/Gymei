@@ -1,0 +1,49 @@
+{
+  "data":[
+    {
+    "name": "TRX Gravity Cast",
+    "image": "https://mygymproducts.com/wp-content/uploads/2017/12/feartured-image.jpg",
+    "price": 20
+    },
+    {
+    "name": "TRX Hong Kong",
+    "image": "https://www.planet-fitness.com/26861/product.jpg",
+    "price": 45
+    },
+    {
+    "name": "Whey Protein",
+    "image": "https://cdn.hsnstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/100-wheygold-2kg-optimium_1.jpg",
+    "price": 110
+    },
+    {
+    "name": "Jordan Dumbbells",
+    "image": "https://cdn.shopify.com/s/files/1/0141/5242/products/JTFDSRN2_Classic-Dumbbells-Solid-Ends-3-1024x609_1024x1024.jpg?v=1515075309",
+    "price": 75
+    },
+    {
+    "name": "Mens Blue-Mash",
+    "image": "https://images.voonik.com/29162092/aadi-men-s-blue-mesh-sports-shoes-50e2b7a2-original.jpg?1530190357",
+    "price": 220
+    },
+    {
+    "name": "Lebbers Weight",
+    "image": "https://www.salsport.com/images/stories/virtuemart/product/19367438308_3718d275ba_o.jpg",
+    "price": 40
+    },
+    {
+    "name": "AB-Roller Wheel",
+    "image": "https://i5.walmartimages.com/asr/c274bc49-27ab-4abe-8768-d1735bcf4851_1.c5d6008824fabf6c48d487d3fd6805d1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "price": 10
+    },
+    {
+    "name": "Smart Shake Gym",
+    "image": "https://img.diytrade.com/smimg/308519/46015244-7911178-0/300ML_Smart_Shake_Gym_Protein_Shaker_Mixer_Cup_Blender_Bottle_Whisk_Ball/fa31.jpg",
+    "price": 20
+    },
+    {
+      "name": "An-sport Gloves",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xZDx732aL._SX425_.jpg",
+      "price": 65
+    }
+
+  ]}

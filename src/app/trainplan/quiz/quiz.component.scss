@@ -1,0 +1,62 @@
+label {
+  display: block;
+
+  input, textarea {
+    display: block;
+    width: 10%;
+    height: 8px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding: 1em;
+  }
+}
+.cta {
+  width: 200px;
+  height: 50px;
+  background: #000A16;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 1em;
+  cursor: pointer;
+  font-family: 'Montserrat';
+
+  &:hover {
+    font-weight: 100;
+    background: #39CCCC;
+    color: #000A16;
+  }
+}
+
+.loader {
+  border: 16px solid #000A16;
+  border-radius: 50%;
+  border-top: 16px solid #39CCCC;
+  width: 200px;
+  top: 450px;
+  left: 70%;
+  height: 200px;
+  position: absolute;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.message-loader {
+  top: 115%;
+  font-size: 17px;
+  font-weight: 900;
+  left: 70%;
+  position: absolute;
+
+}

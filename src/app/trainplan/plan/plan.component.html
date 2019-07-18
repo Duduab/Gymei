@@ -1,0 +1,43 @@
+<div class="content">
+<div class="plan-container">
+  <div class="logo-place1">
+    <img src="./../../../assets/gymei-logo-home.jpg">
+  </div>
+  <div class="logo-place2">
+    <img src="./../../../assets/gymei-logo-home.jpg">
+  </div>
+  <br/>
+  <p class="titles">Your Training Plan:</p>
+  <div *ngIf="Trainplan">
+    You need to stretch out This Trainings all over The Week
+    <div *ngFor="let item of Trainplan.data">
+      <br/><br/>
+      <p class="titles">Day {{item.id}}</p>
+      <ul>
+        <li>
+          <img [src]="item.Image1">
+          <p class="muscle_text"><b style="color: #39CCCC;font-size: 26px;">{{item.EX1_Heavy_muscle}}</b>   {{item.EX1_det}}</p>
+          <button class="videobutton" (click)="openDialog(item.Video1)"><i class="fa fa-video-camera" style="font-size:25px;color: #F5F5F5;"></i>
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img [src]="item.Image2">
+          <p class="muscle_text"><b style="color: #39CCCC;font-size: 26px;">{{item.EX2_light_muscle}}</b>  {{item.EX2_det}}</p>
+          <button class="videobutton" (click)="openDialog(item.Video2)"><i class="fa fa-video-camera" style="font-size:25px;color: #F5F5F5;"></i>
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img [src]="item.Image3">
+          <p class="muscle_text"><b style="color: #39CCCC;font-size: 26px;">{{item.EX3_light_muscle}}</b>  {{item.EX3_det}}</p>
+          <button class="videobutton" (click)="openDialog(item.Video3)"><i class="fa fa-video-camera" style="font-size:25px;color: #F5F5F5;"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>

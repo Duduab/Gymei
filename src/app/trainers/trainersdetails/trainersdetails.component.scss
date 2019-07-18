@@ -1,0 +1,48 @@
+.close {
+  position: sticky;
+  left: 428px;
+  bottom: 732px;
+  width: 32px;
+  height: 0px;
+  opacity: 0.3;
+  border: none;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+  color: #39CCCC;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.details-button {
+  width: 226px;
+  height: 47px;
+  background: #000A16;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 13px;
+  padding: 0em;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+    background: #39CCCC;
+    color: #000A16;
+  }
+}
+

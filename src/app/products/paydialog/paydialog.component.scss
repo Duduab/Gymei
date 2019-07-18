@@ -1,0 +1,41 @@
+input, textarea {
+  display: block;
+  width: 50%;
+  height: 8px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  padding: 1em;
+}
+.close {
+  position: sticky;
+  left: 428px;
+  bottom: 732px;
+  width: 32px;
+  height: 0px;
+  opacity: 0.3;
+  border: none;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.img-card{
+  margin-top: 0%;
+  margin-left: -3%;
+  height: 70px;
+}

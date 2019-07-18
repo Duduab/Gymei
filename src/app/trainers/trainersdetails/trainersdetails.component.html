@@ -1,0 +1,18 @@
+<button class="close" (click)="OnCloseClick()"></button>
+<p>
+  <label><b style="color: #39CCCC">Name:</b></label>
+  {{firstname}} {{lastname}}
+  <br/><br/>
+  <label><b style="color: #39CCCC">Email:</b></label>
+  {{email}}
+</p>
+<mat-form-field>
+  <input matInput value="" placeholder="Your Name:">
+</mat-form-field>
+<br/>
+<mat-form-field>
+  <input matInput value="" placeholder="Message:">
+</mat-form-field>
+<br/><br/>
+<button mat-button class="details-button" (click)="openSnackBar(firstname)">Send Message</button>
+

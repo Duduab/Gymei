@@ -1,0 +1,30 @@
+section {
+  display: flex;
+
+  img {
+    width: 210px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .example-card {
+    max-width: 900px;
+    margin: 20px;
+    right: 125px;
+
+  }
+
+  .example-header-image {
+    background-image: url('../../assets/gymei-logo-home.jpg');
+    border-radius: 50%;
+    border: 2px outset #39CCCC;
+    box-shadow: 0px 1px 12px #888888;
+    background-size: cover;
+  }
+
+  .divider{
+    width: 100px;
+    height: auto;
+    display: inline-block;
+  }
+}

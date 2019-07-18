@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$col-secondary: #DD4132;
+
+body,html{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+h3{
+  text-align: center;
+  font-size: 50px;
+  color: #DD4132;
+  margin-top: 0px;
+}
+
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    letter-spacing: 1px;
+}
+
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 1.1;
+    margin: 10px 0px;
+}
+.header {
+  display: inline-flex;
+  padding: 2rem;
+  .logo-place {
+    background-color: #fffafa;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px outset #39CCCC;
+    box-shadow: 0px 1px 12px #888888;
+
+    img {
+      height: 192px;
+      width: 203px;
+    }
+  }
+}
+
+.explain {
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+.button__holder{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #000A16;
+  border-radius: 14px;
+  &:after{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background: rgba(0, 10, 22,0.1)
+  }
+  h2{
+    margin: {right: 1em;}
+    text-align: center;
+    color: white;
+  }
+}
+.plus{
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  color: #1a1a1a;
+  background: #39CCCC;
+  border-radius: 50%;
+  border: none;
+  font-weight: 900;
+  transition: box-shadow 400ms cubic-bezier(.2,0,.7,1), transform 200ms cubic-bezier(.2,0,.7,1);
+  &:after{
+    content: "+";
+    font-size: 2.5em;
+    line-height: 1.1em;
+  }
+  &:hover{
+    box-shadow: 0 0 1px 15px rgba(#39CCCC, 0.4),
+    0 0 1px 30px rgba(#39CCCC, 0.1),
+    0 0 1px 45px rgba(#39CCCC, 0.1);
+    color: #FFFAFA;
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,10 @@
+<div class="youtb">
+  <youtube-player
+    [height]="height"
+    [width]="width"
+    [videoId]="id"
+    (ready)="savePlayer($event)"
+    (change)="onStateChange($event)"
+  style="margin: 0 auto;">
+  </youtube-player>
+</div>

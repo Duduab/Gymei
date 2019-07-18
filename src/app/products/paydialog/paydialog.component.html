@@ -1,0 +1,30 @@
+<div class="pay-header">
+  <img class="img-card" src="https://www.morkarinca.com/resimler/images/visa-master-card.png">
+  <button class="close" (click)="OnCloseClick()"></button>
+  <br/><br/>
+</div>
+<mat-dialog-content>
+  <label>
+    CARD NUMBER
+    <input type="text">
+  </label>
+  <br/>
+  <label>
+    CARD HOLDER
+    <input type="text">
+  </label>
+  <br/>
+  <label>
+    CW
+    <input type="text">
+  </label>
+  <br/>
+  <label>
+    ID
+    <input type="text">
+  </label>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="OnCloseClick()">Cancel</button>
+  <button mat-raised-button>Buy</button>
+</mat-dialog-actions>

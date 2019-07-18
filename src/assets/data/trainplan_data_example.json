@@ -1,0 +1,49 @@
+{
+  "data":[
+    {
+      "id": 1,
+      "EX1_Heavy_muscle": "Chest",
+      "EX1_det": "build size and strength – fast.",
+      "EX2_light_muscle": "Biceps",
+      "EX2_det": "Biceps workout the next level.",
+      "EX3_light_muscle": "Belly",
+      "EX3_det": "Abs Workout six pack",
+      "Image1": "https://media.cdnandroid.com/5b/b1/e9/b5/49/imagen-home-workout-no-equipment-0thumb.jpg",
+      "Image2": "https://lh3.googleusercontent.com/VBw02-i-LtV9Pn8Y9mvET4LTdJDS_bQos2SWI6No1Y4nVjIH7oxNG_TlTtW_nbfQMFSE",
+      "Image3": "https://media.cdnandroid.com/5b/b2/0a/e0/be/imagen-6-pack-abs-in-30-days-abs-workout-0thumb.jpg",
+      "Video1": "jWc8gHlAkoM",
+      "Video2": "1PEKENchiuQ",
+      "Video3": "vkKCVCZe474"
+    },
+    {
+
+      "id": 2,
+      "EX1_Heavy_muscle": "Back",
+      "EX1_det": "BUILD A BIG BACK",
+      "EX2_light_muscle": "Triceps",
+      "EX2_det": "Triceps Workout For Mass",
+      "EX3_light_muscle": "Belly",
+      "EX3_det": "Abs Workout six pack",
+      "Image1": "https://image.freepik.com/free-photo/male-body-builder-doing-pull-ups-gym_13339-53191.jpg",
+      "Image2": "https://cdn6.aptoide.com/imgs/2/a/1/2a1b709cba355d74dfb2d7424bac8fe4_icon.png?w=240",
+      "Image3": "https://media.cdnandroid.com/5b/b2/0a/e0/be/imagen-6-pack-abs-in-30-days-abs-workout-0thumb.jpg",
+      "Video1": "NoRkALo4AMQ",
+      "Video2": "WOW6zPhqKKI",
+      "Video3": "vkKCVCZe474"
+    },
+    {
+      "id": 3,
+      "EX1_Heavy_muscle": "Legs",
+      "EX1_det": "Sets and Reps Included",
+      "EX2_light_muscle": "Shoulders",
+      "EX2_det": "Build Bigger Shoulders",
+      "EX3_light_muscle": "Belly",
+      "EX3_det": "Abs Workout six pack",
+      "Image1": "https://data.apksum.com/3f/com.strong.legs.workout.muscle.fitness/1.0.3/icon.png",
+      "Image2": "https://lh3.googleusercontent.com/1scd0sGDt7atGMc2S5wctEIMmcyHtocHAL0VXA4UkBFuBbZqlfaqEL-UcYhEpFE-dq8",
+      "Image3": "https://media.cdnandroid.com/5b/b2/0a/e0/be/imagen-6-pack-abs-in-30-days-abs-workout-0thumb.jpg",
+      "Video1": "RjexvOAsVtI",
+      "Video2": "pRJ-X9WTb4Y",
+      "Video3": "vkKCVCZe474"
+    }
+  ]}

@@ -1,0 +1,12 @@
+<div class="content">
+  <p class="titles">Trainers</p>
+  <p><i class="fa fa-arrow-circle-right" style="color: #39CCCC" aria-hidden="true"></i>
+    Click On One of The Trainers To Send Personal Message</p>
+  <br/>
+  <ul *ngIf="users">
+    <li *ngFor="let user of users.data" (click)="openDialog(user.first_name, user.last_name, user.avater, user.email)">
+      <img [src]="user.avatar">
+      <p>{{user.first_name}} {{user.last_name}}</p>
+    </li>
+  </ul>
+</div>

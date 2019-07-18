@@ -1,0 +1,33 @@
+.bmi-container {
+  label {
+    display: block;
+
+    input, textarea {
+      display: block;
+      width: 50%;
+      height: 8px;
+      margin-bottom: 0px;
+      margin-top: 15px;
+      padding: 1em;
+    }
+  }
+  .cta {
+    width: 150px;
+    height: 40px;
+    background: #000A16;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Montserrat';
+
+    &:hover {
+      font-weight: 100;
+      background: #39CCCC;
+      color: #000A16;
+    }
+  }
+}

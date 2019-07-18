@@ -1,0 +1,23 @@
+<div class="content">
+<div class="explain">
+  <br/><br/>
+  if You are Fresh New Here<br/>
+  <br/>We have Multiply Trainers That Can guide You and Explain To you How it works<br/><br/>
+  <br/><p class="titles">Fill Your name and Phone number , and one of our trainers Call you in the next 24 Hours.</p>
+  <br/><br/>
+</div>
+<div class="form-border">
+<mat-form-field>
+  <br/>
+  <input matInput value="" placeholder="Your Name:" #name>
+</mat-form-field>
+<br/><br/>
+  <mat-form-field>
+    <br/>
+    <input matInput value="" placeholder="Phone number">
+  </mat-form-field>
+<br/><br/>
+<button mat-button class="details-button" (click)="openSnackBar(name.value)">Send Details To Trainer</button>
+  <br/><br/>
+</div>
+</div>

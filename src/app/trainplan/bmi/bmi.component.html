@@ -1,0 +1,16 @@
+<div *ngIf="boolbni; else bmi">
+  <p class="titles">First Step - BMI</p>
+  <br/><br/>
+  <app-bmiform (BMI)="OnBmiCalc($event)"></app-bmiform>
+  <br/><br/>
+  <app-bmilist *ngFor="let item of BMI" [BMIOUT]="item"></app-bmilist>
+  <br/>
+</div>
+  <ng-template #bmi>
+  <h1>Your BMI is: {{BMICalc.toFixed(2)}}</h1>
+    <div [ngClass]="{'under-alert':m==0, 'normal-alert':m==1,'over-alert':m==2}">{{BNI_RES}}</div>
+    <button class="next-step-bt" routerLink="/trainplan/purpose">Go TO Second Step</button>
+  </ng-template>
+
+
+

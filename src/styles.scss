@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+      font-family: 'Montserrat';
+      font-size: 18px;
+      background-color: #F5F5F5;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.under-alert {
+  border: 2px outset #FFDC00;
+  height: 75px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 700;
+
+}
+
+select {
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.normal-alert {
+  border: 2px outset #2ECC40;
+  height: 75px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 700;
+
+}
+
+.over-alert {
+  border: 2px outset #FF4136;
+  height: 75px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 700;
+
+}
+
+.next-step-bt {
+  margin: 130px auto;
+  width: 25%;
+  height: 45px;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  background-color: #000A16;
+  color: #dbe4eb;
+
+  &:hover {
+    background-color: #39CCCC;
+    color: #000A16;
+  }
+
+}
+
+.product-image{
+  width: 300px;
+  height: 300px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, #f0f0f0, #8f8f8f, #f0f0f0);
+}
+hr::after {
+  content: '§';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    a {
+        color: white;
+    }
+}
+
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.titles {
+  font-size: 26px;
+  color: #39CCCC;
+}
